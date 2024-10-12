@@ -23,15 +23,15 @@ This is a homework-oriented project hoping to create a Python-like scientific ca
 2. Usage
    Calculator is best learned by examples.
 
-   ->>> 1+2
-   ->>> 3
+   =>>> 1+2
+   =>>> 3
 
-   ->>> sin(30*3)
-   ->>> 1
+   =>>> sin(30*3)
+   =>>> 1
 
-   ->>> x=123
-   ->>> max(x, pi)^pi / log(tan(12), rand()) + abs(sqrt(e/2))
-   ->>> 3316679.525874111
+   =>>> x=123
+   =>>> max(x, pi)^pi / log(tan(12), rand()) + abs(sqrt(e/2))
+   =>>> 3316679.525874111
 
    ->>> def rand_between(min, max): min + (max - min) * rand()
    ->>> rand_between(100, 200)
