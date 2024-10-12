@@ -2,7 +2,7 @@ This is a homework-oriented project hoping to create a Python-like scientific ca
 
 0. **USE CODE VIEW TO READ THIS README**
 
-1. Environment
+1. Environment:
    If you try to run this project on Windows platfrom, it has been compiled into ./bin/calculate.exe.
    Click it directly and everything goes ok. The depended dynamic-linked libraries are all listed in ./lib.
 
@@ -23,7 +23,7 @@ This is a homework-oriented project hoping to create a Python-like scientific ca
    replace 'dll' with your system-preferred shared library suffix, such as '.so' on Linux.
 
 
-2. Usage
+2. Usage:
    Calculator is best learned by examples.
 
    [In ]: 1+2
@@ -64,7 +64,7 @@ This is a homework-oriented project hoping to create a Python-like scientific ca
    You can also use 'calculate 100+200' in command line and get '300' once you put calculate.exe into system.environment_variables.PATH (on Windows).
 
 
-3. Extension
+3. Extension:
    This project uses C++.
    
    Include the header files:
@@ -98,7 +98,7 @@ This is a homework-oriented project hoping to create a Python-like scientific ca
    **Undefined behavior** if exist key1 in variable().keys() and key2 in constant().keys() | xxx_function().keys() => key1 == key2.   
    
 
-4. Bug report
+4. Bug report:
    On Windows, if you found any bug or unexpected behavior, re-input it into calculate_debug.exe. Get the stacktrace from the output then post it to commitments.
    for example:
    
