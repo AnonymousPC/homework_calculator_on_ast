@@ -1,5 +1,7 @@
 This is a homework-oriented project hoping to create a Python-like scientific calculator.
 
+0. **USE CODE VIEW TO READ THIS README**
+
 1. Environment
    If you try to run this project on Windows platfrom, it has been compiled into ./bin/calculate.exe.
    Click it directly and everything goes ok. The depended dynamic-linked libraries are all listed in ./lib.
@@ -100,9 +102,9 @@ This is a homework-oriented project hoping to create a Python-like scientific ca
    On Windows, if you found any bug or unexpected behavior, re-input it into calculate_debug.exe. Get the stacktrace from the output then post it to commitments.
    for example:
    
-   [[calculate.exe]]
-   >>> def func(x, y): x + z
-   >>> ap::expr_error: failed to parse numeric_expr " x + z" at pos 4 (with attribute = double (double, double))
+   [[calculate.exe]]:
+   [In ]: def func(x, y): x + z
+   [Out]: ap::expr_error: failed to parse numeric_expr " x + z" at pos 4 (with attribute = double (double, double))
       at main in F:/Code/Anonymous/main.cpp:14
       at ap::spirit::cmd() in F:/Code/specific/spirit/interface.h:148
       at ap::spirit::numeric_expr<double (double, double)>::operator()(ap::basic_string<char> const&) const in F:/Code/specific/spirit/numeric/numeric.cpp:582
