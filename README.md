@@ -23,17 +23,17 @@ This is a homework-oriented project hoping to create a Python-like scientific ca
 2. Usage
    Calculator is best learned by examples.
 
-   =>>> 1+2
-   =>>> 3
+   === 1+2
+   === 3
 
-   =>>> sin(30*3)
-   =>>> 1
+   === sin(30*3)
+   === 1
 
-   =>>> x=123
-   =>>> max(x, pi)^pi / log(tan(12), rand()) + abs(sqrt(e/2))
-   =>>> 3316679.525874111
+   === x=123
+   === max(x, pi)^pi / log(tan(12), rand()) + abs(sqrt(e/2))
+   === 3316679.525874111
 
-   ->>> def rand_between(min, max): min + (max - min) * rand()
+   === def rand_between(min, max): min + (max - min) * rand()
    ->>> rand_between(100, 200)
    ->>> 149.83101221352834
 
@@ -52,9 +52,9 @@ This is a homework-oriented project hoping to create a Python-like scientific ca
 
    You can also use 'calculate 100+200' in command line and get '300' once you put calculate.exe into system.environment_variables.PATH (on Windows).
 
-3. Extension
+4. Extension
 
-4. Bug report
+5. Bug report
    On Windows, if you found any bug or unexpected behavior, re-input it into calculate_debug.exe. Get the stacktrace from the output then post it to commitments.
    for example:
    
