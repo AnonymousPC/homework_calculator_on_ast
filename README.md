@@ -24,50 +24,39 @@ This is a homework-oriented project hoping to create a Python-like scientific ca
 2. Usage
    Calculator is best learned by examples.
 
-   >>> 1+2
-
-   >>> 3
-
-
-   >>> sin(30*3)
-
-   >>> 1
+   [In ] 1+2
+   [Out ] 3
 
 
-   >>> x=123
-
-   >>> max(x, pi)^pi / log(tan(12), rand()) + abs(sqrt(e/2))
-
-   >>> 3316679.525874111
+   [In ] sin(30*3)
+   [Out] 1
 
 
-   >>> def rand_between(min, max): min + (max - min) * rand()
-
-   >>> rand_between(100, 200)
-
-   >>> 149.83101221352834
+   [In ] x=123
+   [In ] max(x, pi)^pi / log(tan(12), rand()) + abs(sqrt(e/2))
+   [Out] 3316679.525874111
 
 
-   >>> solve x: 2x^2 - 4^x + 2 = 0
+   [In ] def rand_between(min, max): min + (max - min) * rand()
+   [In ] rand_between(100, 200)
+   [Out] 149.83101221352834
 
-   >>> x = 1
+
+   [In ] solve x: 2x^2 - 4^x + 2 = 0
+   [Out] x = 1
 
    
-   >>> solve x: max(x, x^x/2) * ln(abs(x-1)) - arctan(2^x) / exp(x) = x
-
-   >>> x = 2.9165152495479694
-
-
-   >>> def func(x): 100 + x + hahahaha, i'm not 42 and i'm 24
-
-   >>> ap::expr_error: failed to parse numeric_expr " 100 + x + hahahaha, i'm not 42 and i'm 24" at pos 10 (with attribute = double (double))
+   [In ] solve x: max(x, x^x/2) * ln(abs(x-1)) - arctan(2^x) / exp(x) = x
+   [Out] x = 2.9165152495479694
 
 
-   >>> param = 42
+   [In ] def func(x): 100 + x + hahahaha, i'm not 42 and i'm 24
+   [Out] ap::expr_error: failed to parse numeric_expr " 100 + x + hahahaha, i'm not 42 and i'm 24" at pos 10 (with attribute = double (double))
 
-   >>> solve abc: param * abc + rand() = 100
 
-   >>> ap::math_error: failed to solve equation (with attribute = ap::function<double (double)>) in 10000 iterations
+   [In ] param = 42
+   [In ] solve abc: param * abc + rand() = 100
+   [Out] ap::math_error: failed to solve equation (with attribute = ap::function<double (double)>) in 10000 iterations
 
 
    You can also use 'calculate 100+200' in command line and get '300' once you put calculate.exe into system.environment_variables.PATH (on Windows).
