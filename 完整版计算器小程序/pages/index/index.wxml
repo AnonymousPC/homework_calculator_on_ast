@@ -1,0 +1,7 @@
+<!-- pages/index/index.wxml -->
+<view class="container">
+  <input class="input-box" placeholder="请输入表达式" bindinput="onInput" value="{{expression}}" />
+  <button bindtap="onCalculate">输出结果</button>
+  <view class="result">{{result}}</view>
+</view>
+
