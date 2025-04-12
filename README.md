@@ -7,11 +7,11 @@ A Python-interpreter implemented in C++ `boost::spirit`.
 # Install
 
 - Windows
-    - Pre-compiled executable available at `./bin/calculate.exe`
+    - Pre-compiled executable available at `bin/calculate.exe`
     - Or compile like this:
     ```bash
     g++ -std=c++23 -O3 -c main.cpp -o calculator.o
-    g++ -o main.o -s bin/anonymous.dll bin/libboost_locale-mt.dll bin/libboost_thread-mt.dll libtbb12.dll
+    g++ calculator.o bin/anonymous.dll -o main.exe
     ```
 
 - Other
