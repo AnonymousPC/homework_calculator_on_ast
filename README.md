@@ -15,7 +15,7 @@ A Python-interpreter implemented in C++ `boost::spirit`.
     ```
 
 - Other
-    - Recompilation required using g++ compiler (CMake optional but supported)
+    - Requires a re-compile.
 
 
 # Usage
