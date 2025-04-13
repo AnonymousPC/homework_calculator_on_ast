@@ -64,3 +64,14 @@ A Python-interpreter implemented in C++ `boost::spirit`.
 - In : solve('x', "max(x, x^x/2) * ln(abs(x-1)) - arctan(2^x) / exp(x) = x") 
 - Out: {'x', 2.9165152495479694}
 ```
+```py
+# Syntax error handling
+- In : Im not a legal statement!
+- Out: parse_error: could not parse numeric_expr (with attribute = double(double)) "Im not a legal statement!" at pos 1
+```
+```py
+# Math error handling
+- In : sqrt(-1)
+- Out: math_error: -1 is out of sqrt() domain [0,+inf)
+```
+
